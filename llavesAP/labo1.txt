@@ -1,0 +1,52 @@
+1. ¿Cuál es el punto más débil de PGP?
+Pretty Good Privacy (PGP) es un sistema de cifrado utilizado para asegurar comunicaciones a través de correo electrónico y archivos. Sin embargo, tiene algunos puntos débiles:
+
+Gestión de Claves: La gestión de claves puede ser complicada. Los usuarios deben asegurarse de proteger sus claves privadas y distribuir sus claves públicas de manera segura. La pérdida o mal manejo de las claves puede comprometer la seguridad.
+
+Confianza en la Red de Claves: PGP usa un modelo de red de confianza para verificar las claves públicas. Esto puede ser problemático si no se verifica correctamente la identidad de las claves, ya que un atacante podría falsificar identidades.
+
+Implementaciones y Configuraciones: Diferentes implementaciones y configuraciones pueden tener vulnerabilidades. Es crucial usar versiones actualizadas y configuraciones seguras para evitar problemas.
+
+Interfaz de Usuario y Usabilidad: La complejidad en la configuración y el uso de PGP puede llevar a errores del usuario, lo que podría comprometer la seguridad. Las interfaces no siempre son intuitivas, y los errores humanos son un riesgo significativo.
+
+2. ¿Cuándo es conveniente utilizar solamente cifrado simétrico?
+El cifrado simétrico es conveniente en las siguientes situaciones:
+
+Alto Rendimiento: El cifrado simétrico generalmente es más rápido que el cifrado asimétrico, por lo que es adecuado para cifrar grandes volúmenes de datos de manera eficiente.
+
+En Entornos Controlados: Cuando el intercambio seguro de claves se puede manejar de manera confiable (por ejemplo, en una red privada segura o mediante un intercambio previo de claves), el cifrado simétrico puede ser una opción eficaz.
+
+Encriptación de Datos en Reposo: Para cifrar archivos almacenados en un disco o datos en reposo donde la comunicación segura de claves no es un problema, el cifrado simétrico es una buena elección.
+
+Sistemas con Recursos Limitados: Dado que el cifrado simétrico generalmente requiere menos potencia de procesamiento que el cifrado asimétrico, es útil en sistemas con recursos limitados.
+
+3. ¿En qué consiste el ciclo de vida del desarrollo de software seguro (etapa por etapa)?
+El ciclo de vida del desarrollo de software seguro (Secure Software Development Lifecycle, SSDLC) implica varias etapas para garantizar que el software sea seguro desde su concepción hasta su despliegue y mantenimiento. Aquí están las etapas clave:
+
+Planificación:
+
+Definición de Requisitos: Identificar y definir los requisitos de seguridad del software.
+Análisis de Riesgos: Evaluar las amenazas y vulnerabilidades potenciales.
+Diseño:
+
+Arquitectura Segura: Diseñar la arquitectura del software con principios de seguridad en mente (por ejemplo, separación de privilegios, control de acceso).
+Modelado de Amenazas: Identificar posibles amenazas y diseñar contramedidas.
+Desarrollo:
+
+Codificación Segura: Implementar prácticas de codificación segura, como la validación de entradas y la gestión segura de recursos.
+Revisión de Código: Realizar revisiones de código y análisis estático para identificar vulnerabilidades.
+Pruebas:
+
+Pruebas de Seguridad: Realizar pruebas de seguridad, como pruebas de penetración y análisis dinámico.
+Verificación de Requisitos de Seguridad: Asegurarse de que todos los requisitos de seguridad se cumplan.
+Despliegue:
+
+Implementación Segura: Asegurarse de que el software se despliegue de manera segura y que las configuraciones de seguridad estén correctas.
+Gestión de Parches y Actualizaciones: Establecer un proceso para gestionar actualizaciones de seguridad y parches.
+Mantenimiento:
+
+Monitoreo y Respuesta: Monitorear el software en busca de vulnerabilidades emergentes y responder a incidentes de seguridad.
+Revisión y Mejora Continua: Revisar y mejorar continuamente las prácticas de seguridad basadas en nuevas amenazas y vulnerabilidades.
+Desactivación:
+
+
